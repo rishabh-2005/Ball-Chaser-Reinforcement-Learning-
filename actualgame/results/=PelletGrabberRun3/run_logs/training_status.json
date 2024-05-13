@@ -1,0 +1,29 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 106580,
+                "file_path": "results\\=PelletGrabberRun3\\Agent Controller\\Agent Controller-106580.onnx",
+                "reward": 10.0,
+                "creation_time": 1715359617.4960203,
+                "auxillary_file_paths": [
+                    "results\\=PelletGrabberRun3\\Agent Controller\\Agent Controller-106580.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 106580,
+            "file_path": "results\\=PelletGrabberRun3\\Agent Controller.onnx",
+            "reward": 10.0,
+            "creation_time": 1715359617.4960203,
+            "auxillary_file_paths": [
+                "results\\=PelletGrabberRun3\\Agent Controller\\Agent Controller-106580.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

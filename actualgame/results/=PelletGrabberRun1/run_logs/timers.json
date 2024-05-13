@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1715358214",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\91956\\My project (1)\\MLvenv\\Scripts\\mlagents-learn --run-id =PelletGrabberRun1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1715358276"
+    },
+    "total": 61.735115400000005,
+    "count": 1,
+    "self": 0.010137600000007296,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0953741999999993,
+            "count": 1,
+            "self": 0.0953741999999993
+        },
+        "TrainerController.start_learning": {
+            "total": 61.629603599999996,
+            "count": 1,
+            "self": 0.00012729999999550046,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.6294328,
+                    "count": 1,
+                    "self": 61.6294328
+                },
+                "TrainerController._save_models": {
+                    "total": 4.3500000003859896e-05,
+                    "count": 1,
+                    "self": 4.3500000003859896e-05
+                }
+            }
+        }
+    }
+}
